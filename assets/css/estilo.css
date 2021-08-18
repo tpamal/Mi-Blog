@@ -1,0 +1,329 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header{
+    background: #01a9db;
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 0px 30px #a4a4a4;
+    border-bottom-style: solid ;
+    border-bottom-color: #585858;
+    border-bottom-width: 5px;
+}
+
+#encabezado{
+    width: 80%;
+    height: 30px;
+    margin: auto;
+    border: 0px solid #000;
+}
+
+#logo{
+    width: 30%;
+    height: auto; overflow: hidden;
+    float: left;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 55px;
+}
+
+#menu{
+    width: 60%;
+    height: 30px;
+    float: right;
+    border: 0px solid red;
+    margin-top: 57px;
+}
+
+#menu ul{}
+
+#menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#menu ul li .enlace{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#menu ul li .enlace:hover{
+    background: #585858;
+    color: #fff;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#menu ul li .active-menu:hover{
+    background: #585858;
+    color: #fff;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#menu ul li .active-menu{
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/****Contenido Principal*****/
+#principal{
+    width: 80%;
+    height: auto; overflow: hidden;
+    border: 0px solid;
+    margin: 10px auto;
+} 
+
+#principal-categoria{
+    width: 99%;
+    height: auto; overflow: hidden;
+    border: 0px solid;
+    margin: 10px auto;
+    margin-left: 100px;
+} 
+
+#publicaciones{
+    width: 90%;
+    height: auto; overflow: hidden;
+    border: 0px solid red;
+    margin-top: 10px;
+    float: left;
+}
+
+#prublicaciones{
+    width: 70%;
+    height: auto; overflow: hidden;
+    border: 0px solid red;
+    margin-top: 10px;
+    float: left;
+}
+
+.post{
+    width: 96%;
+    height: auto;overflow: hidden;
+    padding: 7px;
+    background: #fdfdfd;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #0489b1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #ccc;
+    margin-bottom: 18px;
+}
+
+.enlace-post{
+    text-decoration: none;
+}
+
+#prublicaciones a .titulo-post{
+    color: #6e6e6e;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#publicaciones a .titulo-post{
+    color: #6e6e6e;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+#prublicaciones a .titulo-post:hover{
+    text-decoration: underline;
+}
+
+#publicaciones a .titulo-post:hover{
+    text-decoration: underline;
+}
+
+#publicaciones .img-post{
+    width: 155px;
+    height: 155px;
+    float: left;
+    margin: 7px 7px 7px 0px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#prublicaciones .img-post{
+    width: 155px;
+    height: 155px;
+    float: left;
+    margin: 7px 7px 7px 0px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#prublicaciones .img-post-1{
+    width: 160px;
+    height: 150px;
+    float: left;
+    margin: 7px 7px 7px 0px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#prublicaciones .datos-publicaciones{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0489b1;
+}
+
+#prublicaciones .parrafo-post{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    color: #848484;
+    padding: 5px;
+}
+
+#prublicaciones .ver-conctacto:hover{
+    background: #086a87;
+    color: #fff;
+    
+}
+
+#prublicaciones .ver-conctacto{
+    background: #0489b1;
+    color: #fff;
+    border: 0px;
+    padding: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#sidebar {
+    float: right;
+    width: 28%;
+    border: 0px solid;
+    height: auto; overflow: hidden;
+    margin-top: 10px;
+}
+
+#buscar, #categorias{
+    border-radius: 10px;
+    width: 98%;
+    border: 0px solid #ccc;
+    height: auto; overflow: hidden;
+    margin-bottom: 20px;
+}
+
+form{
+    margin-top: 10px;
+}
+
+#buscar input[type="text"]{
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 5px #ccc inset;
+    padding: 10px 4px;
+    border-radius: 10px;
+    width: 79%;
+    margin-left: 4px;
+    margin-bottom: 4px;
+}
+
+#buscar .boton{
+    border: 0px;
+    color: #fff;
+    background: #0b4c5f;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.encabezado-sidebar{
+    width: 100%;
+    height: 35px;
+    background: #0489b1;
+    text-align: center;
+    color: #fff;
+    font-size: 19px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.enlace-sidebar{
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 5px;
+    color: #848484;
+}
+
+
+.enlace-sidebar:hover{
+    background: #f2f2f2;
+}
+
+/*Diseno de Contactos*/
+#contenido_contacto h2 {
+    text-align: center;
+    color: cornflowerblue;
+    margin: 10px;
+}
+
+*{box-sizing:border-box;}
+
+#contenido_contacto form {
+	width:350px;
+	padding:20px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+}
+
+#contenido_contacto form label{
+	width:90px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+#contenido_contacto form input[type="text"],
+#contenido_contacto form[type="email"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+#contenido_contacto form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+#contenido_contacto form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	/*resize: vertical | horizontal | none | both*/
+	resize:none;
+	display:block;
+}
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/estilo.css">
+    <title>Mi Blog</title>
+</head>
+<body>
+    
+    <header class="header">
+        <div id="encabezado">
+            <div id="logo">
+                Mi Logo
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="./index.html" class="active-menu">Inicio</a></li>
+                    <li><a href="./categoria.html" class="enlace">Categorias</a></li>
+                    <li><a href="./cursos.html" class="enlace">Cursos Formales</a></li>
+                    <li><a href="./software.html" class="enlace">Software</a></li>
+                    <li><a href="./contacto.html" class="enlace">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div id="contenido_contacto">
+        <h2>Contacto:</h2>
+     <form action="#" target="" method="get" name="formDatosPersonales">
+
+        <label for="nombre">Nombres:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Ej. Selvin Antonio ">
+
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" name="apellidos" id="apellidos" placeholder="Ej. Carrillo Marroquin"/>
+
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email" placeholder="Ej. Selvi23@gmail.com" required />
+        
+        <label for="mensaje" >Mensaje:</label>
+        <textarea name="mensaje" for="mensaje" placeholder="Comentarios o Consultas" maxlength="300"></textarea>
+        
+        <input type="submit" name="enviar" value="enviar datos"/>
+    </form>   
+    </div>
+
+</body>
+</html>
